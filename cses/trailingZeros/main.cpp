@@ -8,7 +8,7 @@ long long int fac(long long int num) {
 }
 int main() {
     long long int num;
-    unsigned long long int facNum;
+    long long int facNum;
     long long int numOfZeros = 0;
     int counter = -1;
     cin >> num;
@@ -20,6 +20,5 @@ int main() {
         counter++;
     }
     cout << counter << endl;
-    system("pause");
     return 0;
 }
