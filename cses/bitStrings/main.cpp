@@ -10,7 +10,7 @@ int main() {
     {
         sumBits = sumBits + int(pow(base, i)) % m;
     }
-    cout << sumBits
+    
     system("pause");
     return 0;
 }
